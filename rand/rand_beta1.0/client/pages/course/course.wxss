@@ -1,0 +1,7 @@
+/*pages/participant/courses/courses.wxss */
+.img{
+   clear:both;
+   display:block;
+   margin:auto;
+   margin-top:100rpx
+}

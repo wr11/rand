@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "enablePullDownRefresh":true,
+  "navigationBarTitleText": "欢迎使用rand小程序"
+}

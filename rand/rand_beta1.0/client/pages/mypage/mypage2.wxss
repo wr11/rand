@@ -1,0 +1,12 @@
+/* pages/mypage/mypage2.wxss */
+.rand_result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  height: 50%;
+  color: #5fa;
+  line-height: 20;
+  font-size: large;
+  font-style: normal;
+} 

@@ -1,0 +1,5 @@
+<!--pages/mypage/mypage2.wxml-->
+<view class="rand_result">
+  <text>您还没抽过呢</text>
+    <button bindtap="gotoindex2">开始使用rand</button>
+</view>

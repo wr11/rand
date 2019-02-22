@@ -1,0 +1,5 @@
+<view class="container">
+  <text>{{mytext}}</text>
+    <button bindtap="gotoorganizer">我要发起一次抽签</button>
+    <button bindtap="gotoparticipant">我要参加一次抽签</button>
+</view>

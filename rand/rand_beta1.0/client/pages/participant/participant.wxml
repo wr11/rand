@@ -1,0 +1,27 @@
+<!--logs.wxml-->
+<view class='container '>
+<view bindtap="bindViewTap" class="userinfo">
+<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"
+background-size="cover"/>
+</view>
+<view class="login-from">
+<!--姓名-->
+<view class="inputView">
+
+<label class="loginLab">姓 名:</label>
+<input class="inputText" placeholder="请输入姓名" bindinput="nameInput" />
+</view>
+<!--身份证-->
+<view class="inputView">
+<label class="loginLab">身份证:</label>
+<input class="inputText"  auto-focus='true' placeholder="true" placeholder="请输入身份证号"
+bindinput="userIDInput"/>
+</view>
+<!--按钮-->
+<view class="loginBtnView">
+<button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}"
+plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button>
+</view>
+</view>
+
+</view>
